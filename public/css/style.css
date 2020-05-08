@@ -1,0 +1,321 @@
+ /* General Css */
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .brownColor{
+    color: #427900 !important;
+  }
+  /* General End */
+
+  /* Top Header */
+  .top-header-section {
+    background-color: #316dc3;
+    padding: 10px 0;
+  }
+  .top-social-icon-wrapper i {
+    color: #fff;
+  }
+  .top-social-icon-wrapper a {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s all;
+    cursor: pointer;
+  }
+  .top-social-icon-wrapper a:hover {
+    background-color: #316dd9;
+    text-decoration: none;
+  }
+  .top-header-para {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+  .top-links a {
+    font-size: 11px;
+    background-color: #f5f5f5 !important;
+    color: #427900;
+    padding: 5px 9px;
+    border: 1px solid #006618;
+  }
+  .top-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  /* Navbar */
+  .navbar-section {
+    background-color: #f7f8fa !important;
+  }
+  .navbar-brand img {
+    width: 45%;
+  }
+  .navbar-main-menu > li > a {
+    font-size: 13px;
+    padding: 8px 14px;
+    font-weight: 600;
+    color: #333333;
+    transition: color .3s;
+  }
+  nav li.active a {
+    background-color: #316dc3;
+    border-radius: 30px;
+    color: #fff;
+  }
+  .navbar-main-menu > li > a:hover{
+    background-color: #316dc3;
+    border-radius: 30px;
+    color: #fff;
+  }
+  .navbar-main-menu > li > a:hover ul.dropdown {
+      display: block !important;
+  }
+ ul.dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* display: none; */
+    position: absolute;
+    z-index: 99;
+    min-width: 180px;
+    white-space: nowrap;
+    background: #fff;
+}
+.navbar-main-menu ul.dropdown li a {
+  padding: 7px 25px 7px 22px;
+  color: #666;
+  font-weight: 600;
+  font-size: 12px;
+  width: 100%;
+  display: block;
+}
+ul.dropdown{
+  transition: all .4s;
+}
+.navbar-main-menu li:hover ul.dropdown{
+  display: block !important;
+  top: 70px;
+}
+  /* Slider */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  /* About section */
+  #about {
+    background-color: #f7f8fa !important;
+  }
+  #about .container {
+    padding: 60px 0px;
+  }
+  .title-icon {
+    position: relative;
+    width: 18%;
+    margin: auto;
+  }
+  .title-icon::before {
+    content: "";
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    background-color: #427900;
+  }
+  .title-icon::after {
+    content: "";
+    height: 2px;
+    right: 10px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    background-color: #427900;
+  }
+  .title-heading {
+    text-transform: uppercase;
+    line-height: 1;
+    color: #316dc3;
+    font-weight: 600;
+  }
+  .title-heading-span {
+    color: #427900 !important;
+  }
+  .about-para {
+    color: #666666;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+  /* Counter section */
+  .counter-section {
+    background-color: #3056e9;
+    padding: 80px 0px;
+  }
+  .counter-heading {
+    font-size: 3rem;
+  }
+  .counter-subhead {
+    font-size: 14px;
+    margin: 10px 0px;
+    font-weight: 600;
+  }
+  .counter-span {
+    font-size: 18px;
+    color: rgb(0, 255, 0);
+    font-weight: 600;
+  }
+
+  /* Services */
+  #services {
+    padding: 60px 0px;
+    background-color: #f7f8fa !important;
+  }
+  .single-service-box {
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #fff !important;
+  }
+  .service-box-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #316dc3;
+  }
+  #upcoming-projects {
+    padding: 60px 0px 30px;
+  }
+  .upcoming-section-heading {
+    font-weight: 600;
+    color: #316dc3;
+  }
+
+  .line-bottom {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+  .line-bottom::after {
+    content: "";
+    width: 50px;
+    background: #427900;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  .upcoming-box-heading {
+    font-size: 15px;
+    font-weight: 600;
+    color: #316dc3;
+    margin: 10px 0px 10px 25px;
+  }
+  .icon-box {
+    border: 1px solid #eeeeee !important;
+    background-color: #f7f8fa !important;
+    padding: 15px !important;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+  }
+  .gallery-item:hover .overlay-shade {
+    border: 8px solid #eeeeee;
+    opacity: 0.9;
+  }
+  .gallery-item .overlay-shade {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .gallery-item:hover .icons-holder {
+    top: 40%;
+    opacity: 1;
+  }
+  .gallery-item .icons-holder {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 36px;
+    vertical-align: middle;
+    z-index: 130;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+  }
+  .gallery-item .thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  .icons-holder a {
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px 7px 2px 0;
+    width: 30px;
+    background-color: #316dc3;
+    color: #fff;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+  }
+  .icons-holder-inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Footer */
+  footer {
+    background-color: rgb(37, 39, 46) !important;
+  }
+  .footer-top {
+    padding: 60px 0px;
+  }
+  .widget.dark .widget-title.line-bottom {
+border-bottom: 1px solid #444;
+}
+.footer-bottom{
+background-color: #316DD9 !important;
+}
+.footerlinks li a{
+width: 30px;
+height: 30px;
+background-color: #316DD9;
+border-radius: 50%;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
